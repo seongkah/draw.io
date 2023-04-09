@@ -1,14 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T18:30:46.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="CmuWvlJTaSIL91A6H7_f" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T20:15:31.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="tCyon5bmrfBdXkP-Z3Sd" version="21.1.5" type="github">
   <diagram name="Page-1" id="k1bo5IinutCrpWLUX7ki">
-    <mxGraphModel dx="474" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rF8X_Evqlo20IkxRfRME-7" value="Testing" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="280" y="274.25" width="139.5" height="69.5" as="geometry" />
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8X_Evqlo20IkxRfRME-7" target="f5QsY_8WXg7Rx6cOdkyI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8X_Evqlo20IkxRfRME-7" value="SecurityGroup" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="72.62" y="274" width="147.38" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8X_Evqlo20IkxRfRME-8" target="rF8X_Evqlo20IkxRfRME-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rF8X_Evqlo20IkxRfRME-8" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;" parent="1" vertex="1">
-          <mxGeometry x="130" y="270" width="78" height="78" as="geometry" />
+          <mxGeometry x="-130" y="269.75" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-1" value="Target group&lt;br&gt;TravelAgencyWebServers-1&lt;br&gt;&lt;br&gt;Listenning port:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Port: 80 | HTTP&lt;/div&gt;" style="text;strokeColor=default;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-169.25" y="370" width="156.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-2" value="TravelAgencyWebServer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="262.25" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-4" value="&lt;div&gt;vpc-000d04362363cb301 (lab/TravelAgencypc)&lt;/div&gt;&lt;div&gt;10.0.0.0/16&lt;/div&gt;" style="text;strokeColor=default;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="61.300000000000004" y="510.25" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146.55" y="500.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-5" target="f5QsY_8WXg7Rx6cOdkyI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-5" value="Name: TravelAgencyLoadBalancer&lt;br&gt;&lt;br&gt;Desc:&amp;nbsp;Allow access to the Travel Agency Load Balancer from the Internet" style="text;strokeColor=default;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="58.68" y="390.25" width="175.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="230" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-10" value="Inbound" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="f5QsY_8WXg7Rx6cOdkyI-9">
+          <mxGeometry x="-0.3241" y="-3" relative="1" as="geometry">
+            <mxPoint x="37" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-11" target="rF8X_Evqlo20IkxRfRME-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-11" value="SecurityGroup" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.87" y="274" width="139.5" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-12" value="&lt;div&gt;vpc-000d04362363cb301 (lab/TravelAgencypc)&lt;/div&gt;&lt;div&gt;10.0.0.0/16&lt;/div&gt;" style="text;strokeColor=default;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="282.62" y="510" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367.87" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-15" target="f5QsY_8WXg7Rx6cOdkyI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-15" value="Name: &lt;br&gt;sg-033b9818ffaa5e66d-TravelAgencyWebServer&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="175.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="640" as="sourcePoint" />
+            <mxPoint x="100" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-17" value="Outbound" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="f5QsY_8WXg7Rx6cOdkyI-16">
+          <mxGeometry x="-0.3241" y="-3" relative="1" as="geometry">
+            <mxPoint x="-56" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-20" target="f5QsY_8WXg7Rx6cOdkyI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-20" value="Source:Any | Port: 80" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-21" value="0.0.0.0/0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-22" value="Source:&amp;nbsp;TravelAgencyLoadBalancer | SG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="140" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-24" value="sg-033b9818ffaa5e66d" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-25" value="Mapping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="163.93" y="125" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-26" value="Destination:&amp;nbsp;TravelAgencyWebServer | SG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="21.3" y="720" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-29" value="&lt;div class=&quot;awsui-select-option&quot; title=&quot;sg-033b9818ffaa5e66d&quot;&gt;&lt;div class=&quot;awsui-select-option-content&quot;&gt;&lt;div class=&quot;awsui-select-option-label-content&quot;&gt;sg-033b9818ffaa5e66d&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="71.3" y="770" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-30" target="f5QsY_8WXg7Rx6cOdkyI-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-30" value="Destination: Any | Port : 80" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-31" value="0.0.0.0/0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="367.88" y="770" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-36" value="Mapping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="705" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f5QsY_8WXg7Rx6cOdkyI-38" target="rF8X_Evqlo20IkxRfRME-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5QsY_8WXg7Rx6cOdkyI-38" value="Change Security Group to" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-172.75" y="490.25" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
