@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T15:03:49.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="tPs203bUdCwhpJOa1-vY" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T15:12:56.624Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="6dP3dqHKLp6zBRJaAAAP" version="21.1.5" type="github">
   <diagram name="Page-1" id="a9l3Qxwore4kptaYErri">
-    <mxGraphModel dx="1093" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1230" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
           <mxGeometry x="252" y="51" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="DDDEkAWC7IA2MwqsBna7-22" value="Transformed Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="220" y="279" width="120" height="30" as="geometry" />
+          <mxGeometry x="220" y="233" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDDEkAWC7IA2MwqsBna7-23" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="374" width="20" height="20" as="geometry" />
@@ -79,7 +79,7 @@
           <mxGeometry x="405" y="293" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DDDEkAWC7IA2MwqsBna7-34" value="5" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="273" width="20" height="20" as="geometry" />
+          <mxGeometry x="252" y="233" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DDDEkAWC7IA2MwqsBna7-36" value="Direct PUT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="300" y="313" width="80" height="30" as="geometry" />
@@ -87,7 +87,7 @@
         <mxCell id="DDDEkAWC7IA2MwqsBna7-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DDDEkAWC7IA2MwqsBna7-38" target="DDDEkAWC7IA2MwqsBna7-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DDDEkAWC7IA2MwqsBna7-38" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Lambda&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;h1 style=&quot;font-size: 11px;&quot; class=&quot;awsui_heading_2qdw9_g4grv_239 awsui_heading-variant-h1_2qdw9_g4grv_248&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;AnalyticsDestinationFunction&lt;/font&gt;&lt;/h1&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-38" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Lambda&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AnalyticsDestinationFunction&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
           <mxGeometry x="480" y="50" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DDDEkAWC7IA2MwqsBna7-39" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
@@ -98,6 +98,27 @@
         </mxCell>
         <mxCell id="DDDEkAWC7IA2MwqsBna7-44" value="Map the table show in&lt;br&gt;Dynamo DB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="679" y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-45" value="Real time data Analytics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="216" y="10" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-49" value="Real time data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="369" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-50" value="Configure &quot;Destination&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-51" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Make use Lambda Function&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-52" value="6" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="15" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-53" value="7" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDDEkAWC7IA2MwqsBna7-54" value="8" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="180" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
