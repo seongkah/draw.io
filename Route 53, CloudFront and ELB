@@ -1,32 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T13:24:28.026Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="tH_cL7nCYexHQIfnqc9f" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T13:25:34.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="2OxznfI-aiZUjzG6tBjn" version="21.1.5" type="github">
   <diagram name="Page-1" id="wV1nj5SxwAHlk8h3qaVY">
     <mxGraphModel dx="984" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SkbriJDjrAPupUpQFj0a-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;" vertex="1" parent="1">
-          <mxGeometry y="70" width="78" height="78" as="geometry" />
+          <mxGeometry x="44.5" y="70" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="SkbriJDjrAPupUpQFj0a-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
-          <mxGeometry x="600" y="70" width="78" height="78" as="geometry" />
+          <mxGeometry x="644.5" y="70" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="SkbriJDjrAPupUpQFj0a-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;" vertex="1" parent="1">
-          <mxGeometry x="290" y="70" width="78" height="78" as="geometry" />
+          <mxGeometry x="334.5" y="70" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="SkbriJDjrAPupUpQFj0a-4" value="A Record: Map&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="90" y="70" width="110" height="30" as="geometry" />
+        <mxCell id="SkbriJDjrAPupUpQFj0a-4" value="A Record: DNS register&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="134.5" y="70" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SkbriJDjrAPupUpQFj0a-5" value="Provide balance traffic&amp;nbsp;&lt;br&gt;Http or Https&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="70" width="150" height="40" as="geometry" />
+        <mxCell id="SkbriJDjrAPupUpQFj0a-5" value="Provide balance traffic&amp;nbsp;&lt;br&gt;Http or Https&amp;nbsp;&lt;br&gt;&lt;br&gt;Issue certificate to the https" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="434.5" y="74" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SkbriJDjrAPupUpQFj0a-6" value="Route53" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4" y="148" width="70" height="30" as="geometry" />
+          <mxGeometry x="48.5" y="148" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SkbriJDjrAPupUpQFj0a-7" value="ELB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="304" y="148" width="50" height="30" as="geometry" />
+          <mxGeometry x="348.5" y="148" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SkbriJDjrAPupUpQFj0a-8" value="CloudFront" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="599" y="148" width="80" height="30" as="geometry" />
+          <mxGeometry x="643.5" y="148" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SkbriJDjrAPupUpQFj0a-9" value="&lt;b&gt;Case study: Elastic Load Balancer&amp;nbsp;&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="230" height="30" as="geometry" />
