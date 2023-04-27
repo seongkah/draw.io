@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T14:06:14.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.54" etag="1SvF5gPaQAK3EAHR4pSC" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T17:14:56.936Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.54" etag="BzIy_G1s7Ma3ghAfANiV" version="21.2.1" type="github">
   <diagram name="Page-1" id="1Yii2SdRzN25zuGGkHv8">
-    <mxGraphModel dx="984" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,10 +29,10 @@
           <mxGeometry x="80" y="80" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6lR1fI6BVAbk1DaFDfvl-11" value="&lt;div&gt;• AWS Owned Keys&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="65" y="800" width="130" height="30" as="geometry" />
+          <mxGeometry x="221" y="840" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6lR1fI6BVAbk1DaFDfvl-12" value="&amp;nbsp;AWS Managed Keys" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="65" y="1030" width="140" height="30" as="geometry" />
+          <mxGeometry x="434" y="840" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6lR1fI6BVAbk1DaFDfvl-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -57,12 +57,6 @@
         </mxCell>
         <mxCell id="6lR1fI6BVAbk1DaFDfvl-19" value="Step 1:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="256" y="218" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6lR1fI6BVAbk1DaFDfvl-20" value="&lt;div&gt;• AWS Owned Keys&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="43" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6lR1fI6BVAbk1DaFDfvl-21" value="&amp;nbsp;AWS Managed Keys" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="274" y="43" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6lR1fI6BVAbk1DaFDfvl-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6lR1fI6BVAbk1DaFDfvl-22" target="6lR1fI6BVAbk1DaFDfvl-5">
           <mxGeometry relative="1" as="geometry" />
@@ -113,6 +107,12 @@
         </mxCell>
         <mxCell id="6lR1fI6BVAbk1DaFDfvl-41" value="Because, the KMS key allow Tina is the IAM user to use this key to decrypt de data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="316" y="720.5" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6lR1fI6BVAbk1DaFDfvl-42" value="&lt;div&gt;• AWS Owned Keys&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="800" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6lR1fI6BVAbk1DaFDfvl-43" value="&amp;nbsp;AWS Managed Keys" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="434" y="800" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
