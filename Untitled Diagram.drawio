@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T21:52:29.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="XKvaUWMLD-doUkPGpVZc" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T21:53:53.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="i09KDGPay7OtW9TCYGrz" version="21.2.3" type="github">
   <diagram name="Page-1" id="NrM4Dk5zChoAVqKCztwo">
     <mxGraphModel dx="1833" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,8 +126,20 @@
             <mxPoint x="4" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tjwBpS5ipk19spbEFUgH-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tjwBpS5ipk19spbEFUgH-67" target="tjwBpS5ipk19spbEFUgH-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tjwBpS5ipk19spbEFUgH-67" value="Setup a teams call&amp;nbsp;&lt;br&gt;include Delivery team, BNM members" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="350" width="150" height="70" as="geometry" />
+          <mxGeometry x="1385" y="310" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tjwBpS5ipk19spbEFUgH-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tjwBpS5ipk19spbEFUgH-70" target="tjwBpS5ipk19spbEFUgH-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tjwBpS5ipk19spbEFUgH-70" value="Escalated to Delivery&lt;br&gt;&amp;amp; AWS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tjwBpS5ipk19spbEFUgH-73" value="STOP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="530" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
