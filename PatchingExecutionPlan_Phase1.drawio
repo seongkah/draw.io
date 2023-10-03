@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T08:36:12.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="w-E9oMEbitrSkUqpMmyV" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T08:38:53.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hSh9bGmnptFZCtUP3lbU" version="22.0.1" type="github">
   <diagram name="Page-1" id="cm9vaiCRCYiuwpOqDOg_">
-    <mxGraphModel dx="1300" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1071" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,6 +156,15 @@
             <mxPoint x="987" y="400.5" as="sourcePoint" />
             <mxPoint x="987" y="190.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-186" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="784.29" as="sourcePoint" />
+            <mxPoint x="1210" y="784.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-187" value="1) Take snapshots&lt;br&gt;2) Install available Patches &lt;br&gt;base on the Patch baseline parameters" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="755" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
