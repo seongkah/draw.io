@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T08:38:53.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hSh9bGmnptFZCtUP3lbU" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T10:42:00.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="2KDApl9khrQiX9z0ejvN" version="22.0.1" type="github">
   <diagram name="Page-1" id="cm9vaiCRCYiuwpOqDOg_">
     <mxGraphModel dx="1071" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="6DcNujYjxV_RoPzoqIRg-32" value="Patching Phase 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="28" y="30" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6DcNujYjxV_RoPzoqIRg-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="40" y="730" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6DcNujYjxV_RoPzoqIRg-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
@@ -40,7 +40,7 @@
         <mxCell id="6DcNujYjxV_RoPzoqIRg-140" value="Search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="412" y="168" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6DcNujYjxV_RoPzoqIRg-141" value="&lt;font color=&quot;#000000&quot;&gt;BNM-Search-Instance-2&lt;br&gt;10.25.5.73&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#008a00;shadow=0;fontSize=10;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-141" value="&lt;font color=&quot;#000000&quot;&gt;BNM-Search-Instance-2&lt;br&gt;10.25.5.73&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#60a917;shadow=0;fontSize=10;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="407" y="241" width="70" height="83" as="geometry" />
         </mxCell>
         <mxCell id="6DcNujYjxV_RoPzoqIRg-144" value="Liferay cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="1">
@@ -112,7 +112,7 @@
         <mxCell id="6DcNujYjxV_RoPzoqIRg-165" value="Search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1172" y="168.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6DcNujYjxV_RoPzoqIRg-166" value="&lt;font color=&quot;#000000&quot;&gt;BNM-Search-Instance-2&lt;br&gt;10.25.5.73&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#008a00;shadow=0;fontSize=10;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-166" value="&lt;font color=&quot;#000000&quot;&gt;BNM-Search-Instance-2&lt;br&gt;10.25.5.73&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#60a917;shadow=0;fontSize=10;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="1167" y="241.5" width="70" height="83" as="geometry" />
         </mxCell>
         <mxCell id="6DcNujYjxV_RoPzoqIRg-167" value="Liferay cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="1">
@@ -163,8 +163,38 @@
             <mxPoint x="1210" y="784.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6DcNujYjxV_RoPzoqIRg-187" value="1) Take snapshots&lt;br&gt;2) Install available Patches &lt;br&gt;base on the Patch baseline parameters" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="755" width="230" height="60" as="geometry" />
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-187" value="1) Take snapshots&lt;br&gt;2) Install available Patches &lt;br&gt;base on the Patch baseline parameters&lt;br&gt;3) Scan &amp;amp; Install &quot;Critical &amp;amp; Important&quot; Patches&lt;br&gt;4) CSI do the neccessary checking&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="740" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-188" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="578.5" width="348" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-189" value="BNM-Web-Instance-1&lt;br&gt;10.25.4.28" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#60a917;shadow=0;fontSize=10;fontColor=#000000;strokeColor=#2D7600;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1447" y="586.5" width="70" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-190" value="BNM-App-Instance-3&lt;br&gt;10.25.4.108" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#60a917;shadow=0;fontSize=10;fontColor=#000000;strokeColor=#2D7600;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1587" y="586.5" width="70" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-191" value="Tag: Phase 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="624.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-192" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1472" y="774" as="sourcePoint" />
+            <mxPoint x="1522" y="724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-193" value="Unregister from the Lifereay cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="849" y="850" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-194" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="487.5" as="sourcePoint" />
+            <mxPoint x="1340" y="407.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-195" value="Once all completed, add back the met compliance node back to&lt;br&gt;liferay cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="520" width="360" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
