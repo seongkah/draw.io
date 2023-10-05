@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T18:01:41.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6NK04oLOaUoyhT_JuUjb" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T18:03:13.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="M3WblVqFF5pEZSLOQ70S" version="22.0.1" type="github">
   <diagram name="Page-1" id="zd14XdLHzOIlV9dh_mGD">
-    <mxGraphModel dx="1820" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="1446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,22 +44,22 @@
           <mxGeometry x="1157.5" y="647.5" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-129" value="BNM-Web-Instance-1&lt;br&gt;10.25.4.28" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#60a917;shadow=0;fontSize=10;fontColor=#000000;strokeColor=#2D7600;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="661.5" y="945.5" width="70" height="83" as="geometry" />
+          <mxGeometry x="711.5" y="922.5" width="70" height="83" as="geometry" />
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-130" value="Orignal Volume" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1075.5" width="52.5" height="75" as="geometry" />
+          <mxGeometry x="660" y="1052.5" width="52.5" height="75" as="geometry" />
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-131" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/bold-purple-free-samples/32/Arrows_Refresh_Replace_Round_Circle-128.png" vertex="1" parent="1">
-          <mxGeometry x="680" y="1099" width="33" height="33" as="geometry" />
+          <mxGeometry x="730" y="1076" width="33" height="33" as="geometry" />
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-132" value="Ealier snapshots" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#60a917;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="733" y="1075.5" width="52.5" height="75" as="geometry" />
+          <mxGeometry x="783" y="1052.5" width="52.5" height="75" as="geometry" />
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-134" value="Back to the ealier state (Before do Patch)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="965.5" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-136" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/basic-user-interface-2/512/User_Interface-35-128.png" vertex="1" parent="1">
-          <mxGeometry x="632.5" y="923" width="128" height="128" as="geometry" />
+          <mxGeometry x="682.5" y="900" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-140" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="682.5" width="170" height="70" as="geometry" />
