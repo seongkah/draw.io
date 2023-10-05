@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T11:04:51.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="DhZY5P2MxMTrcGxdhwM6" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T08:31:27.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-afqhVqMeT8GIRv4nGSP" version="22.0.1" type="github">
   <diagram name="Page-1" id="zd14XdLHzOIlV9dh_mGD">
-    <mxGraphModel dx="1213" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,12 +70,6 @@
             <mxPoint x="247" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PuqvNV7YYjLfVx9njn4m-81" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="733.79" as="sourcePoint" />
-            <mxPoint x="470" y="734.22" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-82" value="1) Take snapshots&lt;br&gt;2) Install available Patches &lt;br&gt;base on the Patch baseline parameters&lt;br&gt;3) Scan &amp;amp; Install &quot;Critical &amp;amp; Important&quot; Patches&lt;br&gt;4) CSI do the neccessary checking&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="689.5" width="270" height="90" as="geometry" />
         </mxCell>
@@ -138,6 +132,21 @@
         </mxCell>
         <mxCell id="PuqvNV7YYjLfVx9njn4m-136" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/basic-user-interface-2/512/User_Interface-35-128.png" vertex="1" parent="1">
           <mxGeometry x="558.5" y="909.5" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="PuqvNV7YYjLfVx9njn4m-137" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="749" y="739.5" as="sourcePoint" />
+            <mxPoint x="799" y="689.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuqvNV7YYjLfVx9njn4m-138" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="760" as="sourcePoint" />
+            <mxPoint x="470" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuqvNV7YYjLfVx9njn4m-139" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="397" y="640.12" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
