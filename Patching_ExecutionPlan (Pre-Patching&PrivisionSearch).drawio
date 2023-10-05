@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T17:18:00.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ICSaSMJKv8LAy1rpF4md" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T17:22:08.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="mtiDddPplJWj8G0Rj7RO" version="22.0.1" type="github">
   <diagram name="Page-1" id="-mjlqebvSr8Z0SdgE8bW">
     <mxGraphModel dx="1517" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -256,12 +256,6 @@
         <mxCell id="TRkRwzScEhr-TnR55P3y-98" value="" style="shape=mxgraph.sysml.x;" vertex="1" parent="1">
           <mxGeometry x="1332" y="861.5" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TRkRwzScEhr-TnR55P3y-101" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="906.5" as="sourcePoint" />
-            <mxPoint x="1020" y="906.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-103" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="240" width="390" height="280" as="geometry" />
         </mxCell>
@@ -285,12 +279,6 @@
         </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-118" value="Pre-Patching (ScanOnly)&lt;br&gt;Tag Method" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;labelBorderColor=default;" vertex="1" parent="1">
           <mxGeometry x="1417" y="632" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TRkRwzScEhr-TnR55P3y-119" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1397" y="677.55" as="sourcePoint" />
-            <mxPoint x="1397" y="626" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-120" value="Liferay cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="1172" y="770" width="100" height="30" as="geometry" />
@@ -339,6 +327,12 @@
         </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-132" value="Patch Baseline parameters:&lt;br&gt;Operating System: Red Hat Enterprise Linux&lt;br&gt;Classification: Security, Bugfix&lt;br&gt;Severity: Critical, Important" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="8" y="1010" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TRkRwzScEhr-TnR55P3y-133" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="905" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TRkRwzScEhr-TnR55P3y-134" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="544" width="70" height="216" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
