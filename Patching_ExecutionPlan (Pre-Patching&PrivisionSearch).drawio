@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T17:58:36.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uCg1T7i2m_D9iXH0yie9" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T09:35:28.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JZyTOKr0QyUo2_RClhIK" version="22.0.1" type="github">
   <diagram name="Page-1" id="-mjlqebvSr8Z0SdgE8bW">
-    <mxGraphModel dx="1138" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,7 +196,7 @@
             <mxPoint x="795" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TRkRwzScEhr-TnR55P3y-64" value="BNM-Search-Instance-2&lt;br&gt;10.25.5.73" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#fa6800;shadow=0;fontSize=10;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="TRkRwzScEhr-TnR55P3y-64" value="BNM-Search-Instance-2&lt;br&gt;10.25.5.73" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#60a917;shadow=0;fontSize=10;fontColor=#000000;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="712" y="964" width="70" height="83" as="geometry" />
         </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -235,7 +235,7 @@
         <mxCell id="TRkRwzScEhr-TnR55P3y-88" value="Search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1332" y="808" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TRkRwzScEhr-TnR55P3y-90" value="BNM-Search-Instance-2&lt;br&gt;10.25.5.73" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#fa6800;shadow=0;fontSize=10;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="TRkRwzScEhr-TnR55P3y-90" value="BNM-Search-Instance-2&lt;br&gt;10.25.5.73" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#60a917;shadow=0;fontSize=10;fontColor=#000000;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="1327" y="964" width="70" height="83" as="geometry" />
         </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-91" value="Monitor few hours" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
@@ -250,8 +250,8 @@
         <mxCell id="TRkRwzScEhr-TnR55P3y-85" value="BNM-Search-Instance-1&lt;br&gt;10.25.4.76" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#eeeeee;shadow=0;fontSize=10;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1327" y="850" width="70" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="TRkRwzScEhr-TnR55P3y-94" value="Shutdown instead of &lt;br&gt;terminal straight away" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="871.5" width="140" height="40" as="geometry" />
+        <mxCell id="TRkRwzScEhr-TnR55P3y-94" value="Shutdown and unregister &lt;br&gt;from the cluster instead of&lt;br&gt;terminate straight away" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="861.5" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-98" value="" style="shape=mxgraph.sysml.x;" vertex="1" parent="1">
           <mxGeometry x="1332" y="861.5" width="60" height="60" as="geometry" />
@@ -378,6 +378,9 @@
         </mxCell>
         <mxCell id="TRkRwzScEhr-TnR55P3y-156" value="InProduction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1380" y="340.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TRkRwzScEhr-TnR55P3y-158" value="BNM-Search-Instance-1&lt;br&gt;10.25.4.76" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#eeeeee;shadow=0;fontSize=10;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1052" y="649" width="70" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
