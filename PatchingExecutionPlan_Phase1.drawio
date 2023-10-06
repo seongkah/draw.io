@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T09:40:26.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="09aLMfFdmFHwlreZXFhT" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T09:46:53.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="j_6C7P57VY6PhIZztd3Q" version="22.0.1" type="github">
   <diagram name="Page-1" id="cm9vaiCRCYiuwpOqDOg_">
     <mxGraphModel dx="1400" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -279,6 +279,9 @@
         </mxCell>
         <mxCell id="6DcNujYjxV_RoPzoqIRg-458" value="Tag: Phase 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1780" y="239" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DcNujYjxV_RoPzoqIRg-459" value="BNM-Search-Instance-1&lt;br&gt;10.25.4.76 (offline)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#e51400;shadow=0;fontSize=10;strokeColor=#B20000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1882" y="576.5" width="70" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
