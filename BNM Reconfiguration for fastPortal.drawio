@@ -1,26 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T08:42:14.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" etag="Fkzt--vH7qik6Tq_oAsV" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T09:06:15.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" etag="ITBGJKcHObGIvbhKXxp1" version="21.6.2" type="github">
   <diagram name="Page-1" id="2w0lfunYUtyqt6zxXnZm">
     <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ip776jIc37lIottS4738-1" value="Network Load Balancer" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.network_load_balancer;" vertex="1" parent="1">
-          <mxGeometry x="359" y="390" width="80" height="110" as="geometry" />
+          <mxGeometry x="359" y="410" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ip776jIc37lIottS4738-3" target="Ip776jIc37lIottS4738-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ip776jIc37lIottS4738-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
           <mxGeometry x="360" y="120" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ip776jIc37lIottS4738-4" target="Ip776jIc37lIottS4738-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ip776jIc37lIottS4738-4" value="&lt;div&gt;Web Application Firewall&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="1">
-          <mxGeometry x="363.5" y="230" width="71" height="70" as="geometry" />
+          <mxGeometry x="363.5" y="250" width="71" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ip776jIc37lIottS4738-5" value="ISP 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="326.5" y="520" width="50" height="30" as="geometry" />
+          <mxGeometry x="326.5" y="510" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ip776jIc37lIottS4738-6" value="ISP 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="421.5" y="520" width="50" height="30" as="geometry" />
+          <mxGeometry x="420" y="510" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ip776jIc37lIottS4738-7" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.f5.arx_1000;" vertex="1" parent="1">
-          <mxGeometry x="315" y="590" width="168" height="40" as="geometry" />
+        <mxCell id="Ip776jIc37lIottS4738-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Certificates.svg;" vertex="1" parent="1">
+          <mxGeometry x="483" y="127" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-9" value="fast.bnm.gov.my" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="553" y="138" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="108" width="240" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-11" value="Remain the existing Certificate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="70" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ip776jIc37lIottS4738-12" target="Ip776jIc37lIottS4738-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-12" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="126" width="66" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-13" value="fast.bnm.gov.my" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-18" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="750" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-19" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="447.9" y="750" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Ip776jIc37lIottS4738-20" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Router_VPN.svg;" vertex="1" parent="1">
+          <mxGeometry x="356.72" y="600" width="84.55" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
