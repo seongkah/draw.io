@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T07:44:02.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="_L5rJ424VrZBdFadu_YL" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T07:46:12.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="N5PbsH6kt4WOsoioiADx" version="23.0.1" type="github">
   <diagram name="Page-1" id="beE_4dxmIc5Rx972VI1b">
     <mxGraphModel dx="1434" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -127,8 +127,8 @@
             <mxPoint x="997" y="170.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F5lLC6z1OZfWjeG4dIKi-140" value="1) Take snapshots&lt;br&gt;2) Install available Patches &lt;br&gt;base on the Patch baseline parameters&lt;br&gt;3) CSI perform the necessary checking&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1162" y="828" width="230" height="70" as="geometry" />
+        <mxCell id="F5lLC6z1OZfWjeG4dIKi-140" value="1) Take snapshots&lt;br&gt;2) Patch the instance based on the &lt;br&gt;approved patches result&lt;br&gt;3) install patches&lt;br&gt;4) CSI perform the necessary checking&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="818" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="F5lLC6z1OZfWjeG4dIKi-145" value="Unregister from the Lifereay cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="876" y="835" width="210" height="30" as="geometry" />
