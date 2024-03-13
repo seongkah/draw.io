@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T08:30:49.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="59wfZE6Z7E_F8FSFfaVP" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T08:54:52.819Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="EnXa5d9l3IcDdynsAPHd" version="23.0.1" type="github">
   <diagram name="Page-1" id="WbNE6tVuMJKparVzCXjg">
     <mxGraphModel dx="-266" dy="-381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RNwe_7HmPyJ3Uqml4kKu-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1745" y="1215" width="760" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="RNwe_7HmPyJ3Uqml4kKu-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1755" y="1915" width="760" height="390" as="geometry" />
         </mxCell>
@@ -16,17 +19,14 @@
         <mxCell id="RNwe_7HmPyJ3Uqml4kKu-5" value="After we have performed the scan patches and approved the available patches, we can perform the Scan/Install based on the Patched baseline configured" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1755" y="1130" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RNwe_7HmPyJ3Uqml4kKu-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.patch_manager;" vertex="1" parent="1">
-          <mxGeometry x="2295.5" y="1352.5" width="78" height="78" as="geometry" />
+        <mxCell id="RNwe_7HmPyJ3Uqml4kKu-6" value="Patch Manager" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.patch_manager;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1336.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="RNwe_7HmPyJ3Uqml4kKu-7" value="AWS Systems Manager" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.systems_manager;" vertex="1" parent="1">
           <mxGeometry x="2185" y="1336.5" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RNwe_7HmPyJ3Uqml4kKu-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1775" y="1260" width="300" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="RNwe_7HmPyJ3Uqml4kKu-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1745" y="1215" width="760" height="390" as="geometry" />
         </mxCell>
         <mxCell id="RNwe_7HmPyJ3Uqml4kKu-11" value="EC2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1895" y="1280" width="50" height="30" as="geometry" />
@@ -43,8 +43,8 @@
         <mxCell id="RNwe_7HmPyJ3Uqml4kKu-20" value="After we have performed the scan patches and approved the available patches, we can perform the Scan/Install based on the Patched baseline configured" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1765" y="1830" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RNwe_7HmPyJ3Uqml4kKu-21" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.patch_manager;" vertex="1" parent="1">
-          <mxGeometry x="2305.5" y="2052.5" width="78" height="78" as="geometry" />
+        <mxCell id="RNwe_7HmPyJ3Uqml4kKu-21" value="Patch Manager" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.patch_manager;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="2036.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="RNwe_7HmPyJ3Uqml4kKu-22" value="AWS Systems Manager" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.systems_manager;" vertex="1" parent="1">
           <mxGeometry x="2195" y="2036.5" width="80" height="110" as="geometry" />
