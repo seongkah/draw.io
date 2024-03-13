@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T08:04:01.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="_iTwyF2b3Ph2bz9s3Bnu" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T08:23:33.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="99EvAQsWwCNXRIUXCg0J" version="23.0.1" type="github">
   <diagram name="Page-1" id="IQn_RGmjUxphnMO-temq">
     <mxGraphModel dx="-266" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
         <mxCell id="I5GqBziF1sQ-0T2JehLB-35" value="AWS Systems Manager" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.systems_manager;" vertex="1" parent="1">
           <mxGeometry x="2228.75" y="1085" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="I5GqBziF1sQ-0T2JehLB-39" value="[PROD] - CI/CD Shared Services #184632759576&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;Bring up all the instance online and perform &lt;br style=&quot;font-size: 15px;&quot;&gt;patch scanning to get the patch available result" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="I5GqBziF1sQ-0T2JehLB-39" value="[PROD] - Network Hub #599767537749&lt;br&gt;&lt;br&gt;Bring up all the instance online and perform &lt;br style=&quot;font-size: 15px;&quot;&gt;patch scanning to get the patch available result" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1720" y="1360" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="I5GqBziF1sQ-0T2JehLB-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
