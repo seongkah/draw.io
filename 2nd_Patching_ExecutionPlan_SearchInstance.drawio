@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T08:05:34.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="NgoA3bidwr2iddCoD7jh" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T08:06:44.217Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0" etag="tB6TlO0DVHqoIzZFuHab" version="23.0.1" type="github">
   <diagram name="Page-1" id="-mjlqebvSr8Z0SdgE8bW">
     <mxGraphModel dx="819" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5FVByCgZ-Wp0GAzIwcAn-2" value="Bring up standby search instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontStyle=5" parent="1" vertex="1">
-          <mxGeometry x="20" y="40" width="330" height="40" as="geometry" />
+        <mxCell id="5FVByCgZ-Wp0GAzIwcAn-2" value="Bring up standby search instance and install Patches" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontStyle=5" parent="1" vertex="1">
+          <mxGeometry x="32" y="40" width="510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5FVByCgZ-Wp0GAzIwcAn-3" value="Before" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=5" parent="1" vertex="1">
           <mxGeometry x="32" y="140" width="60" height="30" as="geometry" />
