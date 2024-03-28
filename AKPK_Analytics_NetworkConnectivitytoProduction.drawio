@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T18:34:49.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="tkYKfIniBdGBsJcZHvVg" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T17:20:28.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="tboBMl_FEZ2xaTeNxivw" version="24.0.7" type="github">
   <diagram name="Page-1" id="ekQTbNEggGetkGWxemV9">
-    <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,12 @@
         </mxCell>
         <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-4" value="&lt;br&gt;DB Private 1b ACL&lt;br&gt;&lt;div&gt;230 INbound&lt;/div&gt;&lt;div&gt;99 oubound&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="388" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="67.5" height="81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
