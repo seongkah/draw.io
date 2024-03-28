@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T17:20:28.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="tboBMl_FEZ2xaTeNxivw" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T17:20:58.482Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="_WoOS1YtRPbq2ljqa3h2" version="24.0.7" type="github">
   <diagram name="Page-1" id="ekQTbNEggGetkGWxemV9">
     <mxGraphModel dx="1434" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transit_gateway;" vertex="1" parent="1">
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-1" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transit_gateway;" parent="1" vertex="1">
           <mxGeometry x="490" y="120" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.transit_gateway_attachment;" vertex="1" parent="1">
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.transit_gateway_attachment;" parent="1" vertex="1">
           <mxGeometry x="350" y="120" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-3" value="&lt;div&gt;1) Check the subnet&lt;br&gt;2) Check the route table first&lt;/div&gt;&lt;div&gt;3) NACL&lt;/div&gt;&lt;div&gt;4) is ICMP allow? if allow everywhere, good to go&lt;br&gt;&lt;/div&gt;&lt;div&gt;5) Security Group&lt;/div&gt;&lt;div&gt;6) &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-3" value="&lt;div&gt;1) Check the subnet&lt;br&gt;2) Check the route table first&lt;/div&gt;&lt;div&gt;3) NACL&lt;/div&gt;&lt;div&gt;4) is ICMP allow? if allow everywhere, good to go&lt;br&gt;&lt;/div&gt;&lt;div&gt;5) Security Group&lt;/div&gt;&lt;div&gt;6) &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="360" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-4" value="&lt;br&gt;DB Private 1b ACL&lt;br&gt;&lt;div&gt;230 INbound&lt;/div&gt;&lt;div&gt;99 oubound&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-4" value="&lt;br&gt;DB Private 1b ACL&lt;br&gt;&lt;div&gt;230 INbound&lt;/div&gt;&lt;div&gt;99 oubound&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="540" y="388" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="370" y="700" width="67.5" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="700" width="67.5" height="81" as="geometry" />
+        <mxCell id="ByOfmtU3Eh_p_D2a4Eoc-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="600" width="67.5" height="81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
