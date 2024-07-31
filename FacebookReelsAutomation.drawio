@@ -5,7 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jWAC5fpG0z1qAIpvb8O0-1" value="MainFolder&lt;br&gt;on&lt;br&gt;(MyMac)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="240" width="80" height="80" as="geometry" />
+          <mxGeometry x="310" y="235" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OiCFRFgZiTAWcAqq92aA-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="90" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
