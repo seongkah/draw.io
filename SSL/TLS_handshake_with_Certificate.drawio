@@ -28,8 +28,17 @@
             <mxPoint x="499.5" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xx1SV5Rz_pCyhEU23e-b-6" value="Step 1:&amp;nbsp;&lt;br&gt;&amp;nbsp;- ClientHello&lt;br&gt;&amp;nbsp;-&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fillColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="250" y="100" width="80" height="80" as="geometry" />
+        <mxCell id="xx1SV5Rz_pCyhEU23e-b-7" value="&lt;span style=&quot;&quot;&gt;Step 1:&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- ClientHello&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- TLS Version&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- ClientRandom (Random number)&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- CiperSuite (密码套件)&lt;/span&gt;" style="text;strokeColor=default;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="100" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xx1SV5Rz_pCyhEU23e-b-10" value="&lt;span style=&quot;&quot;&gt;Step 2:&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- ServerHello&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- TLS Version&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- ClientRandom (Random number)&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- CiperSuite (密码套件)&lt;/span&gt;" style="text;strokeColor=default;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="237" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xx1SV5Rz_pCyhEU23e-b-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="340" as="sourcePoint" />
+            <mxPoint x="215" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
