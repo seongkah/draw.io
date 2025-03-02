@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="D80-A-FywX6ZI_sGQZT9">
-    <mxGraphModel dx="1886" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,13 +41,28 @@
           <mxGeometry x="389.47" y="40" width="480.53" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yoB-aYCdjqZLkG2QELBW-12" value="情况一" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="1290" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yoB-aYCdjqZLkG2QELBW-13" value="房间一添加成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1290" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yoB-aYCdjqZLkG2QELBW-16" value="情况二" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoB-aYCdjqZLkG2QELBW-17" value="网络中断/报错" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoB-aYCdjqZLkG2QELBW-18" value="UserNotFoundError" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yoB-aYCdjqZLkG2QELBW-19" value="UserOfflineError" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yoB-aYCdjqZLkG2QELBW-23" value="初始化流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoB-aYCdjqZLkG2QELBW-24" value="正常连接 -&amp;gt; 房间正常 -&amp;gt; 连接正常 -&amp;gt; 显示 Online&amp;nbsp;&lt;br&gt;&lt;br&gt;网络问题 -&amp;gt; 房间连接正常 -&amp;gt; 显示 Online -&amp;gt; 中间网络中断 -&amp;gt; 转换去 NetworkErrorReconnection -&amp;gt; 加入重试列队 -&amp;gt; 连接成功 -&amp;gt; 显示 Online&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用户Offline 情况 (UserOfflineError or other error) -&amp;gt; 加入重试列队 -&amp;gt; 60 秒间隔 (除非管理员 Stop &amp;lt;&amp;lt;RoomID&amp;gt;&amp;gt; 中断重连) -&amp;gt; 显示 Reconnecting -&amp;gt; 加入重试列队 -&amp;gt; 连接成功 -&amp;gt; 显示 Online&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用户不存在情况 (UserNotFoundError) -&amp;gt; 停止任何行动 -&amp;gt; 标记&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UserNotFoundError -&amp;gt; 记载在数据库连接记录里&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="65" width="1020" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
