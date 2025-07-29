@@ -1,9 +1,248 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.6">
-  <diagram name="Page-1" id="WJDlcms785q-ER8uhBi0">
-    <mxGraphModel>
+  <diagram name="TikTok添加直播间流程" id="WJDlcms785q-ER8uhBi0">
+    <mxGraphModel dx="1783" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-2" value="TikTok直播间添加流程 - linxi.888 示例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="1500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-3" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#3B82F6;strokeColor=#1D4ED8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-4" value="前端组件&#xa;(room-manager.tsx)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10B981;strokeColor=#059669;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-5" value="Socket.IO&#xa;客户端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=#D97706;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-6" value="服务器&#xa;(server.js)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EF4444;strokeColor=#DC2626;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-7" value="TikTok API&#xa;(Live Connector)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8B5CF6;strokeColor=#7C3AED;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="740" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-8" value="Supabase DB&#xa;(PostgreSQL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#06B6D4;strokeColor=#0891B2;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="920" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-9" value="Phase 5.1&#xa;统一状态管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EC4899;strokeColor=#DB2777;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="255" y="160" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="435" y="160" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="615" y="160" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="795" y="160" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="975" y="160" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1155" y="160" width="10" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-17" value="输入 &#39;linxi.888&#39; 并点击添加房间" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="sourcePoint" />
+            <mxPoint x="255" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-18" value="handleAddRoom()&#xa;• 表单验证&#xa;• 检查重复房间&#xa;• setLoading(true)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="200" as="sourcePoint" />
+            <mxPoint x="290" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="200" />
+              <mxPoint x="290" y="230" />
+              <mxPoint x="260" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-19" value="socket.emit(&#39;authenticate&#39;)&#xa;{ userId, sessionId }" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="265" y="250" as="sourcePoint" />
+            <mxPoint x="435" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-20" value="认证请求传递" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="445" y="270" as="sourcePoint" />
+            <mxPoint x="615" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-21" value="验证用户身份&#xa;返回认证成功" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="615" y="290" as="sourcePoint" />
+            <mxPoint x="445" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-22" value="&#39;authenticated&#39; 事件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="435" y="310" as="sourcePoint" />
+            <mxPoint x="265" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-23" value="socket.emit(&#39;joinRoom&#39;)&#xa;{&#xa;  roomId: &#39;room_linxi.888&#39;,&#xa;  username: &#39;linxi.888&#39;&#xa;}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="265" y="340" as="sourcePoint" />
+            <mxPoint x="435" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-24" value="joinRoom 请求传递" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="445" y="370" as="sourcePoint" />
+            <mxPoint x="615" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-25" value="handleJoinRoom(&#xa;  socket, data, ip,&#xa;  rateLimiter, io,&#xa;  connectionManager,&#xa;  userConnections,&#xa;  realtimeStatusManager,&#xa;  unifiedStatusManager&#xa;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="390" as="sourcePoint" />
+            <mxPoint x="650" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="390" />
+              <mxPoint x="650" y="430" />
+              <mxPoint x="620" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-26" value="new WebcastPushConnection(&#xa;  &#39;linxi.888&#39;,&#xa;  {&#xa;    enableExtendedGiftInfo: true,&#xa;    enableWebsocketUpgrade: true,&#xa;    requestPollingIntervalMs: 1000&#xa;  }&#xa;)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="625" y="450" as="sourcePoint" />
+            <mxPoint x="795" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-27" value="HTTP 请求到 TikTok 服务器&#xa;获取直播间信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="480" as="sourcePoint" />
+            <mxPoint x="830" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="480" />
+              <mxPoint x="830" y="500" />
+              <mxPoint x="800" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-28" value="返回直播间数据:&#xa;{&#xa;  roomId: &#39;7xxx&#39;,&#xa;  title: &#39;直播标题&#39;,&#xa;  userCount: 1234,&#xa;  status: &#39;LIVE&#39;&#xa;}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="795" y="520" as="sourcePoint" />
+            <mxPoint x="625" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-29" value="INSERT INTO TikTokRoom&#xa;{&#xa;  username: &#39;linxi.888&#39;,&#xa;  roomId: &#39;7xxx&#39;,&#xa;  isConnected: true,&#xa;  lastUpdated: now()&#xa;}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="625" y="550" as="sourcePoint" />
+            <mxPoint x="975" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-30" value="返回: 插入成功" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="975" y="570" as="sourcePoint" />
+            <mxPoint x="625" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-31" value="unifiedStatusManager.updateUnifiedStatus(&#xa;  userId,&#xa;  &#39;linxi.888&#39;,&#xa;  &#39;CONNECTED&#39;,&#xa;  metadata&#xa;)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="625" y="600" as="sourcePoint" />
+            <mxPoint x="1155" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-32" value="1. Supabase INSERT/UPSERT&#xa;   room_realtime_status 表" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1155" y="620" as="sourcePoint" />
+            <mxPoint x="985" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-33" value="2. Realtime 广播状态变更&#xa;   到所有用户设备" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="640" as="sourcePoint" />
+            <mxPoint x="1190" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1190" y="640" />
+              <mxPoint x="1190" y="660" />
+              <mxPoint x="1160" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-34" value="返回: 更新成功" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1155" y="680" as="sourcePoint" />
+            <mxPoint x="625" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-35" value="EventCoordinator.broadcast(&#xa;  &#39;roomStatusUpdate&#39;,&#xa;  {&#xa;    roomId: &#39;linxi.888&#39;,&#xa;    status: &#39;CONNECTED&#39;,&#xa;    userId: current&#xa;  }&#xa;)&#xa;// 广播到所有用户设备" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="700" as="sourcePoint" />
+            <mxPoint x="650" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="700" />
+              <mxPoint x="650" y="740" />
+              <mxPoint x="620" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-36" value="&#39;roomJoined&#39; 事件&#xa;{&#xa;  roomId: &#39;room_linxi.888&#39;,&#xa;  username: &#39;linxi.888&#39;,&#xa;  success: true,&#xa;  roomData: {...}&#xa;}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="615" y="760" as="sourcePoint" />
+            <mxPoint x="445" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-37" value="onRoomJoined() 回调" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="435" y="780" as="sourcePoint" />
+            <mxPoint x="265" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-38" value="• setLoading(false)&#xa;• 更新UI状态&#xa;• 显示成功消息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="800" as="sourcePoint" />
+            <mxPoint x="290" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="800" />
+              <mxPoint x="290" y="820" />
+              <mxPoint x="260" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-39" value="useUnifiedStatus Hook&#xa;接收实时状态更新:&#xa;• 状态: CONNECTED&#xa;• 跨设备同步" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1155" y="840" as="sourcePoint" />
+            <mxPoint x="265" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-40" value="room-card.tsx&#xa;• 更新 Phase 5.1 状态指示器&#xa;• 显示连接成功状态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="860" as="sourcePoint" />
+            <mxPoint x="290" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="860" />
+              <mxPoint x="290" y="880" />
+              <mxPoint x="260" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-41" value="显示房间连接成功&#xa;• 房间卡片更新&#xa;• 成功提示消息" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="255" y="900" as="sourcePoint" />
+            <mxPoint x="100" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-42" value="关键调用链:&#xa;1. 前端: handleAddRoom() → socket.emit(&#39;joinRoom&#39;)&#xa;2. 服务器: handleJoinRoom() → WebcastPushConnection()&#xa;3. TikTok API: 返回直播间数据 → 数据库存储&#xa;4. Phase 5.1: unifiedStatusManager.updateUnifiedStatus()&#xa;5. 跨设备: EventCoordinator.broadcast()&#xa;6. 前端: useUnifiedStatus Hook → UI更新" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFF2CC;strokeColor=#D6B656;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="80" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-43" value="架构特点:&#xa;• 服务器端负责与 TikTok API 交互&#xa;• 用户端只与服务器通信获取状态&#xa;• Phase 5.1 提供统一状态管理和跨设备同步&#xa;• 三层回退机制: Realtime → PostgreSQL → 离线模式&#xa;• Socket.IO 处理实时通信和事件广播" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#E1D5E7;strokeColor=#9673A6;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="250" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tiJz2mIPUCULAKJ42fsj-44" value="当前状态:&#xa;✅ 所有代码修复完成&#xa;⏳ 需要服务器重启应用修复&#xa;������ unifiedStatusManager 参数传递已修复&#xa;������ 连接分析脚本验证 4/5 项通过" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#D5E8D4;strokeColor=#82B366;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="390" width="280" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
