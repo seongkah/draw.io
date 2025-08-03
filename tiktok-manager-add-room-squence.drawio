@@ -69,6 +69,9 @@
         <mxCell id="foEJXMf0HRlMfBNhh-sD-25" value="Main device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="95" y="170" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="foEJXMf0HRlMfBNhh-sD-26" value="这个实时添加房间同步另一端我该使用哪个Tables 来实现这些功能？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="50" width="390" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
