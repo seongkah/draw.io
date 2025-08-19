@@ -17,7 +17,7 @@
           <mxGeometry x="249" y="96" width="70" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-8" value="supabase DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="10" width="170" height="90" as="geometry" />
+          <mxGeometry x="-210" y="-120" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-10" value="Front end (Client) - Mobile webpage&lt;br&gt;(Logged in Tenant 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="515" width="210" height="40" as="geometry" />
@@ -147,6 +147,9 @@
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.167;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PvUwMP0Rzv3YbJZ_aNjT-64" target="PvUwMP0Rzv3YbJZ_aNjT-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-72" value="status table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
