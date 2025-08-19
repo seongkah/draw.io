@@ -151,7 +151,7 @@
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-72" value="status table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-185" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-73" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-73" value="room_records" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-185" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
