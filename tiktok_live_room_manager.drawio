@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.9">
   <diagram name="Page-1" id="sUdMuPfdtWDkw-8FiHI2">
-    <mxGraphModel dx="2434" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3044" dy="2192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,24 +149,24 @@
           <mxGeometry x="-185" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-74" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="-120" width="240" height="210" as="geometry" />
+          <mxGeometry x="1180" y="520" width="240" height="210" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-75" value="streamer username" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="-120" width="130" height="30" as="geometry" />
+          <mxGeometry x="1180" y="520" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-76" value="viewer count" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="-80" width="90" height="30" as="geometry" />
+          <mxGeometry x="1320" y="560" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-77" value="websocket status&lt;br&gt;connected/ disconnected" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="10" width="160" height="40" as="geometry" />
+          <mxGeometry x="1170" y="650" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-78" value="streamer status&lt;br&gt;online/ offline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="-60" width="110" height="40" as="geometry" />
+          <mxGeometry x="1310" y="580" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-79" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1433" y="-56" as="sourcePoint" />
-            <mxPoint x="1343" y="-56" as="targetPoint" />
+            <mxPoint x="1413" y="584" as="sourcePoint" />
+            <mxPoint x="1323" y="584" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-86" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PvUwMP0Rzv3YbJZ_aNjT-61">
@@ -206,9 +206,6 @@
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-92" value="Middle man interacting with&amp;nbsp;&lt;br&gt;tiktok library" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="489" y="-40" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-95" value="Front end:&lt;br&gt;Vercel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-250" y="443" width="80" height="40" as="geometry" />
