@@ -219,6 +219,18 @@
             <mxPoint x="1630" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-97" value="Add room high level and read and write flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1070" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-98" value="table 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-99" value="table 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-100" value="table 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
