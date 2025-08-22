@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-94" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="430" width="1260" height="410" as="geometry" />
+        </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="78" width="340" height="162" as="geometry" />
         </mxCell>
@@ -194,6 +197,21 @@
         </mxCell>
         <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-89" value="API Interaction with server&lt;br&gt;Add/ Remove/ Get" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-90" value="High level architecture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="-302" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-91" value="Target data fetch platform" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="-175" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-92" value="Middle man interacting with&amp;nbsp;&lt;br&gt;tiktok library" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="489" y="-40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvUwMP0Rzv3YbJZ_aNjT-95" value="Front end:&lt;br&gt;Vercel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="443" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
